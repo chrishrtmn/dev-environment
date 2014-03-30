@@ -4,7 +4,7 @@ This document is my way of setting up a modern local & development environment o
 
 Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
 
-# Table of Contents
+## Table of Contents
 
 1. Xcode Command Line Tools
 2. Homebrew
@@ -33,7 +33,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 13. Mac OS X Apps
 14. Extras
 
-# 1. Xcode Command Line Tools
+## 1. Xcode Command Line Tools
 
 **Note: OS X 10.9 Mavericks or later:** Install the Xcode Command Line Tools directly from the command line with:
 
@@ -41,7 +41,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 Follow the instructions in the pop-up windows to continue installation. Should take roughly around 30 minutes.
 
-# 2. Homebrew
+## 2. Homebrew
 
 The most popular package manager for OS X is [Homebrew](http://brew.sh/).
 
@@ -89,7 +89,7 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
-# 3. Git
+## 3. Git
 
 To install [Git](http://git-scm.com/), simply run:
 
@@ -121,7 +121,7 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/nicolahery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
-# 4. Ruby 
+## 4. Ruby 
 
 ### rbenv
 
@@ -190,7 +190,7 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 
 More info coming soon
 
-# 5. Node.js & NPM
+## 5. Node.js & NPM
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
 
@@ -259,15 +259,15 @@ More info coming soon
 - Compass/Sass
 - Others
 
-# 6. Sass
+## 6. Sass
 
 More info coming soon
 
-# 7. Compass
+## 7. Compass
 
 More info coming soon
 
-# 8. LESS
+## 8. LESS
 
 CSS preprocessors are becoming quite popular, the most popular processors are [LESS](http://lesscss.org/) and [SASS](http://sass-lang.com). Preprocessing is a lot like compiling code for CSS. It allows you to reuse CSS in many different ways. Let's start out with using LESS as a basic preprocessor, it's used by a lot of popular CSS frameworks like [Bootstrap](http://getbootstrap.com/).
 
@@ -301,7 +301,7 @@ The two options are the "input" and "output" files for the compiler. The command
 
 Read more about LESS on their page here: http://lesscss.org/
 
-# 9. MAMP
+## 9. MAMP
 
 More info coming soon
 
@@ -315,7 +315,7 @@ MySQL socket errors with MAMP (also applies to Drush)
 
 	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
 
-# 10. My .bash_profile
+## 10. My .bash_profile
 
 This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
 
@@ -344,7 +344,7 @@ This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi
 	# rbenv
 	eval "$(rbenv init -)"
 
-# 11. Sublime Text 3
+## 11. Sublime Text 3
 
 [Sublime Text 3](http://www.sublimetext.com/) is my favorite text editor. Once Sublime Text is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation) and then install the following packages:
 
@@ -433,7 +433,7 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 	
 	http://misfoc.us/post/18018400006/syncing-sublime-text-2-settings-via-dropbox
 
-# 12. Drupal
+## 12. Drupal
 
 Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
 
@@ -495,7 +495,7 @@ https://drupal.org/project/center
 
 More info coming soon
 
-# 13. Mac OS X Apps
+## 13. Mac OS X Apps
 
 Development and design apps that you'll want to download and install.
 
@@ -534,7 +534,7 @@ Development and design apps that you'll want to download and install.
 	- PHP Function Reference (PHPfr)
 	- Tick
 
-# 14. Extras
+## 14. Extras
 
 ##### Favicons
 
