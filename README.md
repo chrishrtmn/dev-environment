@@ -36,7 +36,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 # Local Environment Setup
 
-Need some text. Need some text. Need some text. Need some text. Need some text. Need some text. Need some text. Need some text. Need some text. Need some text.
+More info coming soon
 
 ## Xcode Command Line Tools
 
@@ -159,9 +159,9 @@ This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi
 
 ### rbenv (or chruby)
 
-Ruby management
+More info coming soon
 
-	$ something here
+Ruby management
 
 ### Gems
 
@@ -219,7 +219,7 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 
 ### Bundler
 
-Junk
+More info coming soon
 
 ## Node.js & NPM
 
@@ -278,9 +278,11 @@ To uninstall a package:
 
 ### Bower
 
-Install Bower
+More info coming soon
  
 ### Grunt, Gulp, Guard 
+
+More info coming soon
 
 - Grunt Starter `https://github.com/robdecker/grunt-starter`
 
@@ -384,7 +386,11 @@ Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for
 
 ### Permissions
 
-So and so
+More info coming soon
+
+##### settings.php & files directory
+
+More info coming soon
 
 ### Modules
 
@@ -414,7 +420,7 @@ Recommended:
 		- Yepnope.js (Modernizr.load)
 	Respond.js
 	
-Other:
+Other Modules:
 	
 	Dismiss
 	
@@ -423,20 +429,9 @@ Other:
 
 ##### Aurora
 
+More info coming soon
+
 If you're not using my custom Quickstart theme, I'd recommend Aurora as a base theme for all your Drupal theming needs.
-
-Credit to Snugug
-
-- Sass 
-- Compass
-- Grunt
-- [Toolkit](https://github.com/Team-Sass/toolkit)
-- Magic
-- Bower
-	- Animate.css (scss)
-    - Formalize
-    - Normalize
-    - PIE
 
 ##### Center
 
@@ -447,78 +442,7 @@ https://drupal.org/project/center
 
 ### Drush
 
-Info
-
-## Folder Heirarchy & Structure
-
-SMACSS or whatever:
-
-##### Root directory
-
-- .gitignore
-- .htaccess
-- Humans.txt
-- php.ini with 256MB
-	- php_value memory_limit = "512M"
-- README.md
-
-##### Drupal Sites directory
-
-- libraries
-- modules
-	- contrib
-	- custom
-	- features
-- patches
-- themes
-
-##### Project directory
-
-- assets/
-	- css/
-	- fonts/
-	- images/
-	- images-min/
-	- images-source/
-	- js/
-	- sass/
-		- design/
-		- global/
-		- layout/
-		- style.scss
-	- vendor/
-		- formalize
-		- normalize
-		- animate.css (scss)	
-- templates/
-	- system/
-		- html.tpl.php
-		- page.footer.inc
-		- page.header.inc
-		- page.tpl.php
-- .bowerrc
-- .editorconfig
-- .gitignore
-- .jshintrc
-- composer.json
-- package.json
-- bower.json
-- .ruby-version (rvm and rbenv)
-- .ruby-gemset (rvm only)
-- Gruntfile.js
-- Guardfile
-- config.rb (needed with bower?)
-- gemfile
-- gemfile.lock
-- favicon.ico
-- screenshot.png
-- apple-touch-icon-precomposed-114x114.png
-- apple-touch-icon-precomposed-144x144.png
-- apple-touch-icon-precomposed-72x72.png
-- apple-touch-icon-precomposed.png
-- libraries.make ?
-- project.info
-- template.php
+More info coming soon
 
 ## LESS
 
@@ -558,15 +482,15 @@ Read more about LESS on their page here: http://lesscss.org/
 
 # Development Environment Setup
 
-Coming soon.
+More info coming soon
 
 ## Hostgator
 
-Coming soon.
+More info coming soon
 
 ## OpenShift
 
-Coming soon.
+More info coming soon
 
 ---
 
@@ -615,15 +539,17 @@ Development and design apps that you'll want to download and install.
 
 ##### MySQL + Sequel Pro
 
+More info coming soon
+
 MySQL socket errors with MAMP (also applies to Drush)
 
 "Can’t connect to local MySQL server through socket /tmp/mysql.sock"
 
 	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
 
-##### Composer?
+##### Composer
 
-Blah
+More info coming soon
 
 ---
 
@@ -631,10 +557,14 @@ Blah
 
 ##### Favicons
 
+More info coming soon
+
 - Favicons: https://github.com/audreyr/favicon-cheat-sheet
 - Favico.js: http://lab.ejci.net/favico.js/
 
 ##### Needs
+
+More info coming soon
 
 	http://sonspring.com/journal/html5-in-drupal-7
 	- template.php pruning
@@ -648,6 +578,8 @@ Blah
 - HTML5 shiv?
 
 ##### CSS Animations
+
+More info coming soon
 
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
