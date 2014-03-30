@@ -4,8 +4,6 @@ This document is my way of setting up a modern local & development environment o
 
 Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
 
----
-
 # Table of Contents
 
 - Requirements
@@ -30,8 +28,6 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 - Mac OS X Apps
 - Extras
 - Coming Soon
-
----
 
 # Requirements
 
@@ -487,8 +483,6 @@ https://drupal.org/project/center
 
 More info coming soon
 
----
-
 # Mac OS X Apps
 
 Development and design apps that you'll want to download and install.
@@ -528,8 +522,6 @@ Development and design apps that you'll want to download and install.
 	- PHP Function Reference (PHPfr)
 	- Tick
 
----
-
 # Extras
 
 ##### Favicons
@@ -560,8 +552,6 @@ More info coming soon
 
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
-
----
 
 # Coming Soon 
 
