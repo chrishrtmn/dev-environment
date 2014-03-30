@@ -439,7 +439,7 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 
 ## 12. Drupal
 
-Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
+Set up a Drupal 7 environment or use my [boilerplate-drupal](https://github.com/chrishrtmn/boilerplate-drupal) quickstart theme for a quick and painless setup with the use of Drush to update modules.
 
 ### Permissions
 
