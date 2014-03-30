@@ -8,33 +8,31 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 # Table of Contents
 
-- Local Environment
-	- Xcode Command Line Tools
-	- Homebrew
-	- Git
-	- .bash_profile
-	- Ruby
-		- rbenv
-		- Gems
-		- Bundler
-	- Node.js
-		- npm
-		- Grunt
-		- Gulp
-		- Guard
-	- Sublime Text 3
-	- Drupal Related & Modules
-	- Folder Heirarchy & Structure
-	- Other Sweetsauce
-- Development Environment
-	- Hostgator
-	- OpenShift
+- Xcode Command Line Tools
+- Homebrew
+- Git
+- Ruby
+	- rbenv
+	- Gems
+	- Bundler
+- Node.js
+	- npm
+	- Grunt
+	- Gulp
+	- Guard
+- Sass
+- Compass
+- LESS
+- .bash_profile
+- Sublime Text 3
+- Drupal
 - Mac OS X Apps
+- Extras
 - Coming Soon
 
 ---
 
-# Local Environment Setup
+# Environment Setup
 
 More info coming soon
 
@@ -125,35 +123,6 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
     $ git config --global credential.helper osxkeychain
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/nicolahery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
-
-## My .bash_profile
-
-This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
-
-	source ~/.bashrc
-	source ~/.profile
-
-	# Terminal
-	alias ls='ls -G'
-	export CLICOLOR=1
-	export LSCOLORS=ExFxCxDxBxegedabagacad
-
-	# MAMP Aliases
-	# alias mysql=/Applications/MAMP/Library/bin/mysql
-	# alias mysqldump=/Applications/MAMP/Library/bin/mysqldump
-	# alias mysqladmin=/Applications/MAMP/Library/bin/mysqladmin
-
-	# Bundler Aliases
-	alias bcw='bundle exec compass watch'
-	alias bcc='bundle exec compass compile'
-	alias bi='bundle install'
-	alias bu='bundle update'
-
-	# Homebrew - Update System Path
-	export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
-
-	# rbenv
-	eval "$(rbenv init -)"
 
 ## Ruby 
 
@@ -280,7 +249,7 @@ To uninstall a package:
 
 More info coming soon
  
-### Grunt, Gulp, Guard 
+### Grunt, Gulp, or Guard 
 
 More info coming soon
 
@@ -290,6 +259,72 @@ More info coming soon
 - Compass/Sass
 - Others
 
+## Sass
+
+## Compass
+
+## LESS
+
+CSS preprocessors are becoming quite popular, the most popular processors are [LESS](http://lesscss.org/) and [SASS](http://sass-lang.com). Preprocessing is a lot like compiling code for CSS. It allows you to reuse CSS in many different ways. Let's start out with using LESS as a basic preprocessor, it's used by a lot of popular CSS frameworks like [Bootstrap](http://getbootstrap.com/).
+
+##### Install
+
+To install LESS you have to use NPM / Node, which you installed earlier using Homebrew. In the terminal use:
+
+    $ npm install less --global
+
+Note: the `--global` flag is optional but it prevents having to mess around with file paths. You can install without the flag, just know what you're doing.
+
+You can check that it installed properly by using:
+
+    $ lessc --version
+
+This should output some information about the compiler:
+
+    lessc 1.5.1 (LESS Compiler) [JavaScript]
+
+Okay, LESS is installed and running. Great!
+
+##### Usage
+
+There's a lot of different ways to use LESS. Generally I use it to compile my stylesheet locally. You can do that by using this command in the terminal:
+
+    $ lessc template.less template.css
+
+The two options are the "input" and "output" files for the compiler. The command looks in the current directory for the LESS stylesheet, compiles it, and outputs it to the second file in the same directory. You can add in paths to keep your project files organized:
+
+    $ lessc less/template.less css/template.css
+
+Read more about LESS on their page here: http://lesscss.org/
+
+## My .bash_profile
+
+This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
+
+	source ~/.bashrc
+	source ~/.profile
+
+	# Terminal
+	alias ls='ls -G'
+	export CLICOLOR=1
+	export LSCOLORS=ExFxCxDxBxegedabagacad
+
+	# MAMP Aliases
+	# alias mysql=/Applications/MAMP/Library/bin/mysql
+	# alias mysqldump=/Applications/MAMP/Library/bin/mysqldump
+	# alias mysqladmin=/Applications/MAMP/Library/bin/mysqladmin
+
+	# Bundler Aliases
+	alias bcw='bundle exec compass watch'
+	alias bcc='bundle exec compass compile'
+	alias bi='bundle install'
+	alias bu='bundle update'
+
+	# Homebrew - Update System Path
+	export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
+	# rbenv
+	eval "$(rbenv init -)"
 
 ## Sublime Text 3
 
@@ -444,54 +479,6 @@ https://drupal.org/project/center
 
 More info coming soon
 
-## LESS
-
-CSS preprocessors are becoming quite popular, the most popular processors are [LESS](http://lesscss.org/) and [SASS](http://sass-lang.com). Preprocessing is a lot like compiling code for CSS. It allows you to reuse CSS in many different ways. Let's start out with using LESS as a basic preprocessor, it's used by a lot of popular CSS frameworks like [Bootstrap](http://getbootstrap.com/).
-
-##### Install
-
-To install LESS you have to use NPM / Node, which you installed earlier using Homebrew. In the terminal use:
-
-    $ npm install less --global
-
-Note: the `--global` flag is optional but it prevents having to mess around with file paths. You can install without the flag, just know what you're doing.
-
-You can check that it installed properly by using:
-
-    $ lessc --version
-
-This should output some information about the compiler:
-
-    lessc 1.5.1 (LESS Compiler) [JavaScript]
-
-Okay, LESS is installed and running. Great!
-
-##### Usage
-
-There's a lot of different ways to use LESS. Generally I use it to compile my stylesheet locally. You can do that by using this command in the terminal:
-
-    $ lessc template.less template.css
-
-The two options are the "input" and "output" files for the compiler. The command looks in the current directory for the LESS stylesheet, compiles it, and outputs it to the second file in the same directory. You can add in paths to keep your project files organized:
-
-    $ lessc less/template.less css/template.css
-
-Read more about LESS on their page here: http://lesscss.org/
-
----
-
-# Development Environment Setup
-
-More info coming soon
-
-## Hostgator
-
-More info coming soon
-
-## OpenShift
-
-More info coming soon
-
 ---
 
 # Mac OS X Apps
@@ -535,24 +522,6 @@ Development and design apps that you'll want to download and install.
 
 ---
 
-# Coming Soon 
-
-##### MySQL + Sequel Pro
-
-More info coming soon
-
-MySQL socket errors with MAMP (also applies to Drush)
-
-"Can’t connect to local MySQL server through socket /tmp/mysql.sock"
-
-	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
-
-##### Composer
-
-More info coming soon
-
----
-
 # Extras
 
 ##### Favicons
@@ -583,3 +552,21 @@ More info coming soon
 
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
+
+---
+
+# Coming Soon 
+
+##### MySQL + Sequel Pro
+
+More info coming soon
+
+MySQL socket errors with MAMP (also applies to Drush)
+
+"Can’t connect to local MySQL server through socket /tmp/mysql.sock"
+
+	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
+
+##### Composer
+
+More info coming soon
