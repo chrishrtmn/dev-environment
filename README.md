@@ -32,7 +32,6 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 	- Drush
 13. Mac OS X Apps
 14. Extras
-15. Coming Soon
 
 # 1. Xcode Command Line Tools
 
@@ -306,6 +305,16 @@ Read more about LESS on their page here: http://lesscss.org/
 
 More info coming soon
 
+##### MySQL + Sequel Pro
+
+More info coming soon
+
+MySQL socket errors with MAMP (also applies to Drush)
+
+"Can’t connect to local MySQL server through socket /tmp/mysql.sock"
+
+	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
+
 # 10. My .bash_profile
 
 This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
@@ -555,19 +564,3 @@ More info coming soon
 
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
-
-# 15. Coming Soon 
-
-##### MySQL + Sequel Pro
-
-More info coming soon
-
-MySQL socket errors with MAMP (also applies to Drush)
-
-"Can’t connect to local MySQL server through socket /tmp/mysql.sock"
-
-	$ ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
-
-##### Composer
-
-More info coming soon
