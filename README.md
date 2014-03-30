@@ -571,6 +571,4 @@ More info coming soon
 
 ---
 
-Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
-
 [Back to Top](#overview)
