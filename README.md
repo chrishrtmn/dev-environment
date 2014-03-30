@@ -6,7 +6,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 ## Table of Contents
 
-1. Xcode Command Line Tools
+1. [Xcode Command Line Tools](#1-xcode-command-line-tools)
 2. Homebrew
 3. Git
 4. Ruby
@@ -14,7 +14,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 	- chruby
 	- Gems
 	- Bundler
-5. Node.js
+5. [Node.js](#5-nodejs--npm)
 	- npm
 	- Grunt
 	- Gulp
@@ -439,7 +439,7 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 
 ## 12. Drupal
 
-Set up a Drupal 7 environment or use my [boilerplate-drupal](https://github.com/chrishrtmn/boilerplate-drupal) quickstart theme for a quick and painless setup with the use of Drush to update modules.
+Set up a Drupal 7 environment or use my [boilerplate-drupal](https://github.com/chrishrtmn/boilerplate-drupal) quickstart] theme for a quick and painless setup with the use of Drush to update modules.
 
 ### Permissions
 
