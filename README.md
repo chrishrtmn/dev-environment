@@ -6,35 +6,34 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 # Table of Contents
 
-- Requirements
-- Xcode Command Line Tools
-- Homebrew
-- Git
-- Ruby
-	- rbenv
-	- Gems
-	- Bundler
-- Node.js
-	- npm
-	- Grunt
-	- Gulp
-	- Guard
-- Sass
-- Compass
-- LESS
-- .bash_profile
-- Sublime Text 3
-- Drupal
-- Mac OS X Apps
-- Extras
-- Coming Soon
+1. Xcode Command Line Tools
+2. Homebrew
+3. Git
+4. Ruby
+	a. rbenv
+	b. chruby
+	c. Gems
+	d. Bundler
+5. Node.js
+	a. npm
+	b. Grunt
+	c. Gulp
+	d. Guard
+6. Sass
+7. Compass
+8. LESS
+9. .bash_profile
+10. Sublime Text 3
+11. Drupal
+	a. Permissions
+	b. Modules
+	c. Themes
+	d. Drush
+12. Mac OS X Apps
+13. Extras
+14. Coming Soon
 
-# Requirements
-
-- OS X Mavericks
-- More info coming soon
-
-# Xcode Command Line Tools
+# 1. Xcode Command Line Tools
 
 **Note: OS X 10.9 Mavericks or later:** Install the Xcode Command Line Tools directly from the command line with:
 
@@ -42,7 +41,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 Follow the instructions in the pop-up windows to continue installation. Should take roughly around 30 minutes.
 
-# Homebrew
+# 2. Homebrew
 
 The most popular package manager for OS X is [Homebrew](http://brew.sh/).
 
@@ -90,7 +89,7 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
-# Git
+# 3. Git
 
 To install [Git](http://git-scm.com/), simply run:
 
@@ -122,19 +121,19 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/nicolahery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
-# Ruby 
+# 4. Ruby 
 
-### rbenv
+### a. rbenv
 
 More info coming soon
 
 Ruby management
 
-### chruby (rbenv alternative)
+### b. chruby (rbenv alternative)
 
 More info coming soon
 
-### Gems
+### c. Gems
 
 [RubyGems](http://rubygems.org/), the Ruby package manager.
 
@@ -188,11 +187,11 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 - toolkit
 - ***others***
 
-### Bundler
+### d. Bundler
 
 More info coming soon
 
-# Node.js & NPM
+# 5. Node.js & NPM
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
 
@@ -247,11 +246,11 @@ To uninstall a package:
     $ npm uninstall <package>
 
 
-### Bower
+### a. Bower
 
 More info coming soon
  
-### Grunt, Gulp, or Guard 
+### b. Grunt, Gulp, or Guard 
 
 More info coming soon
 
@@ -261,15 +260,15 @@ More info coming soon
 - Compass/Sass
 - Others
 
-# Sass
+# 6. Sass
 
 More info coming soon
 
-# Compass
+# 7. Compass
 
 More info coming soon
 
-# LESS
+# 8. LESS
 
 CSS preprocessors are becoming quite popular, the most popular processors are [LESS](http://lesscss.org/) and [SASS](http://sass-lang.com). Preprocessing is a lot like compiling code for CSS. It allows you to reuse CSS in many different ways. Let's start out with using LESS as a basic preprocessor, it's used by a lot of popular CSS frameworks like [Bootstrap](http://getbootstrap.com/).
 
@@ -303,7 +302,7 @@ The two options are the "input" and "output" files for the compiler. The command
 
 Read more about LESS on their page here: http://lesscss.org/
 
-# My .bash_profile
+# 9. My .bash_profile
 
 This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
 
@@ -332,7 +331,7 @@ This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi
 	# rbenv
 	eval "$(rbenv init -)"
 
-# Sublime Text 3
+# 10. Sublime Text 3
 
 [Sublime Text 3](http://www.sublimetext.com/) is my favorite text editor. Once Sublime Text is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation) and then install the following packages:
 
@@ -421,17 +420,17 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 	
 	http://misfoc.us/post/18018400006/syncing-sublime-text-2-settings-via-dropbox
 
-# Drupal
+# 11. Drupal
 
 Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
 
-### Permissions
+### a. Permissions
 
 **settings.php & files directory**
 
 More info coming soon
 
-### Modules
+### b. Modules
 
 These modules are highly recommended for all projects if possible. They help with standards and they bring everything together in a way that makes development easier.
 
@@ -464,7 +463,7 @@ These modules are highly recommended for all projects if possible. They help wit
 		Dismiss
 	
 
-### Drupal Themes
+### c. Themes
 
 ##### Aurora
 
@@ -479,11 +478,11 @@ https://drupal.org/project/center
 - settings[dev_mode] = TRUE
 	- Shows comments in dev mode
 
-### Drush
+### d. Drush
 
 More info coming soon
 
-# Mac OS X Apps
+# 12. Mac OS X Apps
 
 Development and design apps that you'll want to download and install.
 
@@ -522,7 +521,7 @@ Development and design apps that you'll want to download and install.
 	- PHP Function Reference (PHPfr)
 	- Tick
 
-# Extras
+# 13. Extras
 
 ##### Favicons
 
@@ -553,7 +552,7 @@ More info coming soon
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
 
-# Coming Soon 
+# 14. Coming Soon 
 
 ##### MySQL + Sequel Pro
 
