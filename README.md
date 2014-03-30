@@ -22,16 +22,17 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 6. Sass
 7. Compass
 8. LESS
-9. .bash_profile
-10. Sublime Text 3
-11. Drupal
+9. MAMP
+10. .bash_profile
+11. Sublime Text 3
+12. Drupal
 	- Permissions
 	- Modules
 	- Themes
 	- Drush
-12. Mac OS X Apps
-13. Extras
-14. Coming Soon
+13. Mac OS X Apps
+14. Extras
+15. Coming Soon
 
 # 1. Xcode Command Line Tools
 
@@ -301,7 +302,11 @@ The two options are the "input" and "output" files for the compiler. The command
 
 Read more about LESS on their page here: http://lesscss.org/
 
-# 9. My .bash_profile
+# 9. MAMP
+
+More info coming soon
+
+# 10. My .bash_profile
 
 This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
 
@@ -330,7 +335,7 @@ This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi
 	# rbenv
 	eval "$(rbenv init -)"
 
-# 10. Sublime Text 3
+# 11. Sublime Text 3
 
 [Sublime Text 3](http://www.sublimetext.com/) is my favorite text editor. Once Sublime Text is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation) and then install the following packages:
 
@@ -419,7 +424,7 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 	
 	http://misfoc.us/post/18018400006/syncing-sublime-text-2-settings-via-dropbox
 
-# 11. Drupal
+# 12. Drupal
 
 Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
 
@@ -481,7 +486,7 @@ https://drupal.org/project/center
 
 More info coming soon
 
-# 12. Mac OS X Apps
+# 13. Mac OS X Apps
 
 Development and design apps that you'll want to download and install.
 
@@ -520,7 +525,7 @@ Development and design apps that you'll want to download and install.
 	- PHP Function Reference (PHPfr)
 	- Tick
 
-# 13. Extras
+# 14. Extras
 
 ##### Favicons
 
@@ -551,7 +556,7 @@ More info coming soon
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
 
-# 14. Coming Soon 
+# 15. Coming Soon 
 
 ##### MySQL + Sequel Pro
 
