@@ -6,6 +6,8 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 ## Table of Contents
 
+[Before You Begin](#before-you-begin)
+
 1. [Xcode Command Line Tools](#1-xcode-command-line-tools)
 2. Homebrew
 3. Git
