@@ -6,7 +6,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 ## Before You Begin
 
-`Copy/transfer your old/current SSH keys to new machine!`
+Copy/transfer your SSH keys to new machine!
 
 ## Table of Contents
 
