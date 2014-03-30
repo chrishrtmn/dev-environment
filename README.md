@@ -8,6 +8,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 # Table of Contents
 
+- Requirements
 - Xcode Command Line Tools
 - Homebrew
 - Git
@@ -32,11 +33,12 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 ---
 
-# Environment Setup
+# Requirements
 
-More info coming soon
+- OS X Mavericks
+- More info coming soon
 
-## Xcode Command Line Tools
+# Xcode Command Line Tools
 
 **Note: OS X 10.9 Mavericks or later:** Install the Xcode Command Line Tools directly from the command line with:
 
@@ -44,7 +46,7 @@ More info coming soon
 
 Follow the instructions in the pop-up windows to continue installation. Should take roughly around 30 minutes.
 
-## Homebrew
+# Homebrew
 
 The most popular package manager for OS X is [Homebrew](http://brew.sh/).
 
@@ -92,7 +94,7 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
-## Git
+# Git
 
 To install [Git](http://git-scm.com/), simply run:
 
@@ -124,13 +126,17 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/nicolahery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
-## Ruby 
+# Ruby 
 
-### rbenv (or chruby)
+### rbenv
 
 More info coming soon
 
 Ruby management
+
+### chruby (rbenv alternative)
+
+More info coming soon
 
 ### Gems
 
@@ -190,7 +196,7 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 
 More info coming soon
 
-## Node.js & NPM
+# Node.js & NPM
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
 
@@ -259,11 +265,15 @@ More info coming soon
 - Compass/Sass
 - Others
 
-## Sass
+# Sass
 
-## Compass
+More info coming soon
 
-## LESS
+# Compass
+
+More info coming soon
+
+# LESS
 
 CSS preprocessors are becoming quite popular, the most popular processors are [LESS](http://lesscss.org/) and [SASS](http://sass-lang.com). Preprocessing is a lot like compiling code for CSS. It allows you to reuse CSS in many different ways. Let's start out with using LESS as a basic preprocessor, it's used by a lot of popular CSS frameworks like [Bootstrap](http://getbootstrap.com/).
 
@@ -297,7 +307,7 @@ The two options are the "input" and "output" files for the compiler. The command
 
 Read more about LESS on their page here: http://lesscss.org/
 
-## My .bash_profile
+# My .bash_profile
 
 This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi`, hit `I` to enter insert mode and hit `esc` to leave insert mode. Type `:q` to quit or `:x` to save & quit.
 
@@ -326,7 +336,7 @@ This file can be edited with `$ vi ~/.bash_profile` in the terminal. When in `vi
 	# rbenv
 	eval "$(rbenv init -)"
 
-## Sublime Text 3
+# Sublime Text 3
 
 [Sublime Text 3](http://www.sublimetext.com/) is my favorite text editor. Once Sublime Text is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation) and then install the following packages:
 
@@ -415,15 +425,13 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 	
 	http://misfoc.us/post/18018400006/syncing-sublime-text-2-settings-via-dropbox
 
-## Drupal
+# Drupal
 
 Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
 
 ### Permissions
 
-More info coming soon
-
-##### settings.php & files directory
+**settings.php & files directory**
 
 More info coming soon
 
@@ -431,33 +439,33 @@ More info coming soon
 
 These modules are highly recommended for all projects if possible. They help with standards and they bring everything together in a way that makes development easier.
 
-Recommended:
-
-	Fences
-		- SOMETHING ABOUT HTML5 for content type fields? ********
-	HTML5 Tools
-		- Google Chrome Frame
-		- HTML5 doctype with or without RDF
-		- Markup/form changes
-		- Removes cdata tags from inline CSS & Javascript
-	Magic
-		- Adv. CSS Agg
-		- Exclude CSS files
-		- Moves Javascript to footer
-		- Backport of Drupal 8 Javascript handling
-		- Exclude Javascript files
-		- Rebuild Theme Registry on page reload
-		- Display viewport width indicator
-		- Display indicator with classes applied to HTML (best with Modernizr)
-		- Export theme settings
-	Modernizr
-		- html5shiv
-		- Yepnope.js (Modernizr.load)
-	Respond.js
+	RECOMMENDED:
 	
-Other Modules:
+		Fences
+		HTML5 Tools
+			- Google Chrome Frame
+			- HTML5 doctype with or without RDF
+			- Markup/form changes
+			- Removes cdata tags from inline CSS & Javascript
+		Magic
+			- Adv. CSS Agg
+			- Exclude CSS files
+			- Moves Javascript to footer
+			- Backport of Drupal 8 Javascript handling
+			- Exclude Javascript files
+			- Rebuild Theme Registry on page reload
+			- Display viewport width indicator
+			- Display indicator with classes applied to HTML (best with Modernizr)
+			- Export theme settings
+		Modernizr
+			- html5shiv
+			- Yepnope.js (Modernizr.load)
+		Respond.js
 	
-	Dismiss
+	
+	OTHER:
+	
+		Dismiss
 	
 
 ### Drupal Themes
