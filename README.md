@@ -10,25 +10,25 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 2. Homebrew
 3. Git
 4. Ruby
-	a. rbenv
-	b. chruby
-	c. Gems
-	d. Bundler
+	- rbenv
+	- chruby
+	- Gems
+	- Bundler
 5. Node.js
-	a. npm
-	b. Grunt
-	c. Gulp
-	d. Guard
+	- npm
+	- Grunt
+	- Gulp
+	- Guard
 6. Sass
 7. Compass
 8. LESS
 9. .bash_profile
 10. Sublime Text 3
 11. Drupal
-	a. Permissions
-	b. Modules
-	c. Themes
-	d. Drush
+	- Permissions
+	- Modules
+	- Themes
+	- Drush
 12. Mac OS X Apps
 13. Extras
 14. Coming Soon
@@ -123,17 +123,17 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
 # 4. Ruby 
 
-### a. rbenv
+### rbenv
 
 More info coming soon
 
 Ruby management
 
-### b. chruby (rbenv alternative)
+### chruby (rbenv alternative)
 
 More info coming soon
 
-### c. Gems
+### Gems
 
 [RubyGems](http://rubygems.org/), the Ruby package manager.
 
@@ -173,7 +173,7 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 
     $ gem install compass --no-document
 
-##### Gems
+##### My Primary Gems
 
 - breakpoint
 - bundler
@@ -185,9 +185,8 @@ I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/)
 - sass_globbing
 - singularitygs
 - toolkit
-- ***others***
 
-### d. Bundler
+### Bundler
 
 More info coming soon
 
@@ -246,11 +245,11 @@ To uninstall a package:
     $ npm uninstall <package>
 
 
-### a. Bower
+### Bower
 
 More info coming soon
  
-### b. Grunt, Gulp, or Guard 
+### Grunt, Gulp, or Guard 
 
 More info coming soon
 
@@ -424,13 +423,13 @@ To extend more in Sublime Text, a good place to start would be to install the [S
 
 Set up a Drupal 7 environment or use my [Quickstart](http://google.com) repo for a quick and painless setup with the use of Drush to update modules.
 
-### a. Permissions
+### Permissions
 
 **settings.php & files directory**
 
 More info coming soon
 
-### b. Modules
+### Modules
 
 These modules are highly recommended for all projects if possible. They help with standards and they bring everything together in a way that makes development easier.
 
@@ -463,7 +462,7 @@ These modules are highly recommended for all projects if possible. They help wit
 		Dismiss
 	
 
-### c. Themes
+### Themes
 
 ##### Aurora
 
@@ -478,7 +477,7 @@ https://drupal.org/project/center
 - settings[dev_mode] = TRUE
 	- Shows comments in dev mode
 
-### d. Drush
+### Drush
 
 More info coming soon
 
