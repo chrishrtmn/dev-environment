@@ -33,6 +33,10 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 13. Mac OS X Apps
 14. Extras
 
+## Before You Begin
+
+`Copy/transfer your SSH keys to new machine`
+
 ## 1. Xcode Command Line Tools
 
 **Note: OS X 10.9 Mavericks or later:** Install the Xcode Command Line Tools directly from the command line with:
