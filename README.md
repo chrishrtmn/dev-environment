@@ -4,9 +4,11 @@ This document is my way of setting up a modern local & development environment o
 
 Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
 
-## Table of Contents
+## Before You Begin
 
-[Before You Begin](#before-you-begin)
+`Copy/transfer your old/current SSH keys to new machine!`
+
+## Table of Contents
 
 1. [Xcode Command Line Tools](#1-xcode-command-line-tools)
 2. Homebrew
@@ -34,10 +36,6 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 	- Drush
 13. Mac OS X Apps
 14. Extras
-
-## Before You Begin
-
-`Copy/transfer your SSH keys to new machine`
 
 ## 1. Xcode Command Line Tools
 
