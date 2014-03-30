@@ -568,3 +568,9 @@ More info coming soon
 
 - Animate.css: http://daneden.me/animate/
 - CSS3 Animation Cheat Sheet: http://www.justinaguilar.com/animations/index.html
+
+---
+
+Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
+
+[Back to Top](#overview)
