@@ -478,6 +478,7 @@ These modules are highly recommended for all projects if possible. They help wit
 	OTHER:
 	
 		Dismiss
+		Coffee
 	
 
 ### Themes
