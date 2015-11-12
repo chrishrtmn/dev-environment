@@ -39,6 +39,7 @@ Copy/transfer your SSH keys to new machine!
 	- Themes
 	- Drush
 		- [Install via Composer easily](http://whaaat.com/installing-drush-8-using-composer)
+		- [Installation extras](http://docs.drush.org/en/master/install/)
 14. Mac OS X Apps
 15. Extras
 
