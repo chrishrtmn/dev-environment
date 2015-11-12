@@ -11,7 +11,7 @@ Copy/transfer your SSH keys to new machine!
 ## Table of Contents
 
 1. [Xcode Command Line Tools](#1-xcode-command-line-tools)
-2. Homebrew
+2. Homebrew (dont need?)
 3. Git
 4. Deployment/VM's
 	- Vagrant + VirtualBox
@@ -38,6 +38,7 @@ Copy/transfer your SSH keys to new machine!
 	- Modules
 	- Themes
 	- Drush
+		- [Install via Composer easily](http://whaaat.com/installing-drush-8-using-composer)
 14. Mac OS X Apps
 15. Extras
 
