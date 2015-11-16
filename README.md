@@ -1,8 +1,6 @@
 # Overview
 
-This document is my way of setting up a modern development environment on a Mac that caters to Drupal with some Node & Ruby thrown in the pot. Mix these all together and "baby, you got a stew going!"
-
-Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
+This document is my way of setting up a modern development environment on a Mac that caters to Drupal with some Node thrown in the pot. Mix these all together and "baby, you got a stew going!"
 
 
 #### node.js (comes with npm)
