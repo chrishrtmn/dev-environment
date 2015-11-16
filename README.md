@@ -4,6 +4,26 @@ This document is my way of setting up a modern development environment on a Mac 
 
 Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twitter.com/chrishrtmn).
 
+
+#### node.js (comes with npm)
+
+- install package from website
+- add the line below to ~/.bash_profile
+- export PATH="/usr/local/mysql/bin:$PATH"
+- test with:
+- $ node
+- console.log(hello node);
+
+#### bower
+
+- $ sudo npm install -g bower
+
+#### jekyll
+- $ sudo gem install jekyll
+
+
+
+
 ## Before You Begin
 
 Copy/transfer your SSH keys to new machine!
