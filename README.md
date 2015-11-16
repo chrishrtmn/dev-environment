@@ -13,6 +13,7 @@ This document is my way of setting up a modern development environment on a Mac 
 - console.log(hello node);
 
 #### rvm (for ruby version, gems like jekyll)
+- I used homebrew and it worked, but can we install without homebrew?
 
 ### tektite below
 #### bower
