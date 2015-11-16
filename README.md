@@ -20,6 +20,7 @@ Comments or suggestions? Send me a 140 character tweet on [Twitter](https://twit
 
 #### jekyll
 - $ sudo gem install jekyll
+- NOTE: Should set up rvm for this, but used default Mac ruby for gems temporarily
 
 
 
