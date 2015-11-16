@@ -20,7 +20,8 @@ This document is my way of setting up a modern development environment on a Mac 
 - $ sudo gem install jekyll
 - NOTE: Should set up rvm for this, but used default Mac ruby for gems temporarily
 
-
+#### grunt
+- $ sudo npm install -g grunt-cli
 
 
 ## Before You Begin
