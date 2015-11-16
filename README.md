@@ -12,11 +12,13 @@ This document is my way of setting up a modern development environment on a Mac 
 - $ node
 - console.log(hello node);
 
+### tektite below
 #### bower
 
 - $ sudo npm install -g bower
 
 #### jekyll
+- $ sudo gem install github-pages (package with jekyll and markdown editors)
 - $ sudo gem install jekyll
 - NOTE: Should set up rvm for this, but used default Mac ruby for gems temporarily
 
