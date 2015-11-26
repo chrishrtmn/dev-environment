@@ -2,6 +2,11 @@
 
 This document is my way of setting up a modern development environment on a Mac that caters to Drupal with some Node thrown in the pot. Mix these all together and "baby, you got a stew going!"
 
+#### Start with Homebrew
+http://brew.sh/
+
+#### Install wget with Homebrew
+http://coolestguidesontheplanet.com/install-and-configure-wget-on-os-x/
 
 #### node.js (comes with npm)
 
@@ -12,11 +17,10 @@ This document is my way of setting up a modern development environment on a Mac 
 - $ node
 - console.log(hello node);
 
-#### rvm (for ruby version, gems like jekyll)
+#### rvm (for ruby version, gems like jekyll) (use homebrew)
 - I used homebrew and it worked, but can we install without homebrew?
 
-### tektite below
-#### bower
+#### bower (global)
 
 - $ sudo npm install -g bower
 
@@ -24,8 +28,11 @@ This document is my way of setting up a modern development environment on a Mac 
 - $ gem install github-pages (package with jekyll and markdown editors)
 - $ gem install jekyll
 
-#### grunt
+#### grunt (global)
 - $ sudo npm install -g grunt-cli
+
+#### Drush (global)
+https://pantheon.io/blog/easily-install-drush-phar
 
 
 ## Before You Begin
@@ -83,7 +90,7 @@ The most popular package manager for OS X is [Homebrew](http://brew.sh/).
 
     $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
-One thing we need to do is tell the system to use programs installed by Hombrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
+One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
 
     $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
