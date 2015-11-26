@@ -2,6 +2,11 @@
 
 This document is my way of setting up a modern development environment on a Mac that caters to Drupal with some Node thrown in the pot. Mix these all together and "baby, you got a stew going!"
 
+echo $PATH
+which php
+which node
+which git
+
 #### Start with Homebrew
 http://brew.sh/
 
