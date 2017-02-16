@@ -1,0 +1,8 @@
+[push]
+  default = simple
+[core]
+  excludesfile = /Users/Chris/.gitignore
+[alias]
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
