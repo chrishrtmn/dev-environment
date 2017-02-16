@@ -39,6 +39,8 @@ Package managers make it so much easier to install and update applications (for 
 After **Xcode Command Line Tools** has been installed, paste the following line into the terminal, hit **Enter** and follow the steps on the screen:
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	
+##### Skip next step if PATH for Homebrew is already set within .bash_paths
 
 One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
 
@@ -57,12 +59,6 @@ To install a package (or **Formula** in Homebrew vocabulary) simply type:
 To update Homebrew's directory of formulae, run:
 
     $ brew update
-    
-**Note**: I've seen that command fail sometimes because of a bug. If that ever happens, run the following (when you have Git installed):
-
-    $ cd /usr/local
-    $ git fetch origin
-    $ git reset --hard origin/master
 
 To see if any of your packages need to be updated:
 
