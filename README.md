@@ -11,7 +11,7 @@ A personalized checklist for setting up a new development environment on macOS.
 5. [Sublime Text](#sublime-text)
 6. [PHPStorm](#phpstorm)
 7. Deployment/VM's
-	- [VirtualBox](#virtualbox)
+	- [VirtualBox](#virtualbox) + modern.IE
 	- [Vagrant](#vagrant)
 	- Docker
 8. [DevDesktop](#devdesktop)
