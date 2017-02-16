@@ -52,7 +52,7 @@ export PATH="$HOME/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 
-#for file in ~/.{bash_path,bash_prompt,bash_aliases}; do
+#for file in ~/.{bash_paths,bash_prompt,bash_aliases}; do
 #  [ -r "$file" ] && source "$file"
 #done
 #unset file
