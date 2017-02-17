@@ -233,11 +233,14 @@ Download and install the [DrupalVM](https://www.drupalvm.com/) package from the 
 ## Acquia Dev Desktop 
 Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website. There are Drupal Distros here if interested.
 
-## Laravel, Homestead, Composer
+## Laravel, Homestead
 - [Laravel](https://laravel.com/)
 - [Laravel Homestead](https://laravel.com/docs/5.3/homestead)
 - [Setup Guide](https://scotch.io/tutorials/getting-started-with-laravel-homestead)
 - Further documentation coming soon.
+
+## Composer
+Composer documentation coming soon.
 
 ---
 
