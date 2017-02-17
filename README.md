@@ -11,7 +11,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Sublime Text](#sublime-text)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
-- [Acquia DevDesktop](#acquia-devdesktop)
+- [Optional](#optional)
 - [To Add](#to-add)
 
 ---
@@ -216,8 +216,13 @@ Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) pac
 
 <br><br>
 
-## Acquia DevDesktop 
-Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website.
+## Optional
+
+##### Acquia DevDesktop 
+If you're working on sites that require this, download and install [DevDesktop](https://dev.acquia.com/downloads) from the website and follow the installation instructions.
+
+##### MAMP/MAMP Pro
+If you're working on local sites that use this, download and install [MAMP Pro](https://www.mamp.info/en/mamp-pro/) from the website and follow the installation instructions.
 
 <br><br>
 
