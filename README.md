@@ -242,4 +242,4 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 <br><br>
 
 ---
-[Back to Top](#dev-setup-macos)
+[Back to Top](#dev-environment-macos)
