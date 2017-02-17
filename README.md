@@ -18,8 +18,6 @@ A personalized checklist for setting up a new development environment on macOS.
 9. [Drush](#drush)
 10. Other
 
-<br>
-
 ---
 
 <br><br>
