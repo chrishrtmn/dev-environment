@@ -12,10 +12,10 @@ A personalized checklist for setting up a new development environment on macOS.
 6. [PHPStorm](#phpstorm)
 7. [VirtualBox](#virtualbox) + modern.IE
 8. [Vagrant](#vagrant)
-9. Docker
+9. [Docker](#docker)
 10. [DevDesktop](#devdesktop)
 11. [Drush](#drush)
-12. Other
+12. [To Add](#to-add)
 
 ---
 
@@ -207,18 +207,18 @@ Tweak these to your preference. When done, save the file and close it.
 
 <br><br>
 
-## PHPStorm 
-Documentation coming soon.
-
-<br><br>
-
 ## VirtualBox 
 Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
 
 <br><br>
 
 ## Vagrant 
-Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. Avoid installing Vagrant via system package managers.
+Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. **Avoid installing Vagrant via system package managers.**
+
+<br><br>
+
+## Docker 
+More documentation coming soon.
 
 <br><br>
 
@@ -228,7 +228,7 @@ Download and install the [DrupalVM](https://www.drupalvm.com/) package from the 
 <br><br>
 
 ## Acquia Dev Desktop 
-Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website. There are Drupal Distros here if interested.
+Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website.
 
 <br><br>
 
@@ -240,8 +240,15 @@ Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from th
 
 <br><br>
 
-## Composer
-Composer documentation coming soon.
+## To Add
+- phpStorm
+- WebStorm
+- Composer
+- Bulma
+- Yarn?
+- PostCSS
+- LibSass
+	- SassC
 
 <br><br>
 
