@@ -12,7 +12,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
 - [Optional](#optional)
-- [To Add](#to-add)
+- [Incoming](#incoming)
 
 ---
 
@@ -226,7 +226,7 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 
 <br><br>
 
-## To Add
+## Incoming
 - Drush
 - phpStorm
 - WebStorm
