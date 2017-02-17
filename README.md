@@ -4,18 +4,15 @@ A personalized checklist for setting up a new development environment on macOS.
 
 #### Table of Contents
 
-1. [Xcode CLT](#xcode-clt)
-2. [Homebrew](#homebrew)
-3. [Git](#git)
-4. [Node.js](#nodejs)
-5. [Sublime Text](#sublime-text)
-6. [PHPStorm](#phpstorm)
-7. [VirtualBox](#virtualbox) + modern.IE
-8. [Vagrant](#vagrant)
-9. [Docker](#docker)
-10. [DevDesktop](#devdesktop)
-11. [Drush](#drush)
-12. [To Add](#to-add)
+- [Xcode CLT](#xcode-clt)
+- [Homebrew](#homebrew)
+- [Git](#git)
+- [Node.js](#nodejs)
+- [Sublime Text](#sublime-text)
+- [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
+- [Vagrant](#vagrant)
+- [DevDesktop](#devdesktop)
+- [To Add](#to-add)
 
 ---
 
@@ -217,11 +214,6 @@ Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) pac
 
 <br><br>
 
-## Docker 
-More documentation coming soon.
-
-<br><br>
-
 ## DrupalVM 
 Download and install the [DrupalVM](https://www.drupalvm.com/) package from the website. Further Github documentation can be found [here](https://github.com/geerlingguy/drupal-vm).
 
@@ -232,18 +224,12 @@ Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from th
 
 <br><br>
 
-## Laravel, Homestead
-- [Laravel](https://laravel.com/)
-- [Laravel Homestead](https://laravel.com/docs/5.3/homestead)
-- [Setup Guide](https://scotch.io/tutorials/getting-started-with-laravel-homestead)
-- Further documentation coming soon.
-
-<br><br>
-
 ## To Add
+- Drush
 - phpStorm
 - WebStorm
 - Composer
+- Laravel + Homestead
 - Bulma
 - Yarn?
 - PostCSS
