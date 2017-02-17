@@ -18,7 +18,11 @@ A personalized checklist for setting up a new development environment on macOS.
 9. [Drush](#drush)
 10. Other
 
+<br>
+
 ---
+
+<br><br>
 
 ## Xcode CLT
 
@@ -30,6 +34,8 @@ If you are running **OS X 10.9 Mavericks** or newer, then you can install the Xc
 	
 If you have issues with the above method, try downloading **'Command Line Tools (macOS Sierra) for Xcode 8'** from [Apple Developer Downloads](https://developer.apple.com/download/more/) and installing this package.
 
+<br><br>
+
 ## Homebrew
 
 Package managers make it so much easier to install and update applications (for Operating Systems) or libraries (for programming languages). The most popular one for OS X is [Homebrew](http://brew.sh/).
@@ -40,7 +46,7 @@ After **Xcode Command Line Tools** has been installed, paste the following line 
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	
-**Skip this step if PATH for Homebrew is already set within .bash_profile.** One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
+**Skip this next step if PATH for Homebrew is already set within .bash_profile.** One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
 
     $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
@@ -78,6 +84,8 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
+<br><br>
+
 ## Git
 
 To install [Git](http://git-scm.com/), simply run:
@@ -109,6 +117,8 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
     $ git config --global credential.helper osxkeychain
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/chrishrtmn/dev-setup-macos/blob/master/.gitignore) file for inspiration.
+
+<br><br>
 
 ## Node.js
 
@@ -145,6 +155,8 @@ Node modules are installed locally in the `node_modules` folder of each project 
 - **Grunt** `$ npm install -g grunt-cli`
 
 Any packages that you use **in** your project (like **Bower**) should be done with `require('package-name')`, then installed locally at the root of your project.
+
+<br><br>
 
 ## Sublime Text
 Once [Sublime Text 3](http://www.sublimetext.com/) is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation), and then install the following packages:
@@ -216,20 +228,32 @@ Restart Sublime Text for all changes to take affect.
 **Command line alias to open any directory or file in Sublime:**
 https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal
 
+<br><br>
+
 ## PHPStorm 
 Documentation coming soon.
+
+<br><br>
 
 ## VirtualBox 
 Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
 
+<br><br>
+
 ## Vagrant 
 Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. Avoid installing Vagrant via system package managers.
+
+<br><br>
 
 ## DrupalVM 
 Download and install the [DrupalVM](https://www.drupalvm.com/) package from the website. Further Github documentation can be found [here](https://github.com/geerlingguy/drupal-vm).
 
+<br><br>
+
 ## Acquia Dev Desktop 
 Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website. There are Drupal Distros here if interested.
+
+<br><br>
 
 ## Laravel, Homestead
 - [Laravel](https://laravel.com/)
@@ -237,9 +261,12 @@ Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from th
 - [Setup Guide](https://scotch.io/tutorials/getting-started-with-laravel-homestead)
 - Further documentation coming soon.
 
+<br><br>
+
 ## Composer
 Composer documentation coming soon.
 
----
+<br><br>
 
+---
 [Back to Top](#dev-setup-macos)
