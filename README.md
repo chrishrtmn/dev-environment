@@ -1,4 +1,4 @@
-# Dev Setup (macOS)
+# Dev Environment (macOS)
 
 A personalized checklist for setting up a new development environment on macOS.
 
@@ -10,13 +10,12 @@ A personalized checklist for setting up a new development environment on macOS.
 4. [Node.js](#nodejs)
 5. [Sublime Text](#sublime-text)
 6. [PHPStorm](#phpstorm)
-7. Deployment/VM's
-	- [VirtualBox](#virtualbox) + modern.IE
-	- [Vagrant](#vagrant)
-	- Docker
-8. [DevDesktop](#devdesktop)
-9. [Drush](#drush)
-10. Other
+7. [VirtualBox](#virtualbox) + modern.IE
+8. [Vagrant](#vagrant)
+9. Docker
+10. [DevDesktop](#devdesktop)
+11. [Drush](#drush)
+12. Other
 
 ---
 
@@ -44,11 +43,11 @@ After **Xcode Command Line Tools** has been installed, paste the following line 
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	
-**Skip this next step if PATH for Homebrew is already set within .bash_profile.** One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
+**NOTE: Skip this next step if PATH for Homebrew is already set within .bash_profile.** One thing we need to do is tell the system to use programs installed by Homebrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
 
     $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
-Close and open a new terminal window, then run the following command to make sure everything works:
+Once that's finished installing, close and open a new terminal window, then run the following command to make sure everything works:
 
     $ brew doctor
     
@@ -99,9 +98,9 @@ And `$ which git` should output `/usr/local/bin/git`.
 Let's set up some basic configuration. Download the [.gitconfig](/chrishrtmn/dev-setup-macos/blob/master/.gitconfig) file to your home directory:
 
     $ cd ~
-    $ curl -O https://raw.githubusercontent.com/chrishrtmn/dev-setup-macos/master/.gitconfig
+    $ curl -O https://raw.githubusercontent.com/chrishrtmn/dev-environment/master/.gitconfig
 
-It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases. Feel free to take a look at the contents of the file, and add to it to your liking.
+Feel free to take a look at the contents of the file, and add to it to your liking.
 
 Define your Git user (should be the same name and email you use for [GitHub](https://github.com/)):
 
@@ -113,8 +112,6 @@ They will get added to your `.gitconfig` file.
 To push code to your GitHub repositories, we're going to use the recommended HTTPS method (versus SSH). So you don't have to type your username and password everytime, let's enable Git password caching as described [here](https://help.github.com/articles/set-up-git):
 
     $ git config --global credential.helper osxkeychain
-
-**Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](/chrishrtmn/dev-setup-macos/blob/master/.gitignore) file for inspiration.
 
 <br><br>
 
@@ -152,7 +149,7 @@ Node modules are installed locally in the `node_modules` folder of each project 
 - **Gulp** `$ npm install -g gulp`
 - **Grunt** `$ npm install -g grunt-cli`
 
-Any packages that you use **in** your project (like **Bower**) should be done with `require('package-name')`, then installed locally at the root of your project.
+Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
 
 <br><br>
 
@@ -169,14 +166,12 @@ Once [Sublime Text 3](http://www.sublimetext.com/) is installed, you'll want to 
 - Sass
 - SCSS
 - Sidebar Enhancements
-- Theme - SoDaReloaded
 
 
 Let's configure our editor a little. Go to **Sublime Text 3 > Preferences > Settings - User** and paste the following in the file that just opened:
 
 	{
 		"bold_folder_labels": true,
-		"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 		"default_line_ending": "unix",
 		"draw_white_space": "all",
 		"enable_tab_scrolling": false,
@@ -200,7 +195,6 @@ Let's configure our editor a little. Go to **Sublime Text 3 > Preferences > Sett
 		],
 		"shift_tab_unindent": true,
 		"tab_size": 2,
-		"theme": "SoDaReloaded Dark.sublime-theme",
 		"translate_tabs_to_spaces": true,
 		"trim_automatic_white_space": true,
 		"trim_trailing_white_space_on_save": true,
@@ -210,21 +204,6 @@ Let's configure our editor a little. Go to **Sublime Text 3 > Preferences > Sett
 
 
 Tweak these to your preference. When done, save the file and close it.
-
-A popular Theme is the [Soda Theme](https://github.com/buymeasoda/soda-theme). To install it, run:
-
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-    $ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
-
-Then go to **Sublime Text 3 > Preferences > Settings - User** and add the following two lines:
-
-    "theme": "Soda Dark.sublime-theme",
-    "soda_classic_tabs": true
-
-Restart Sublime Text for all changes to take affect.
-
-**Command line alias to open any directory or file in Sublime:**
-https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal
 
 <br><br>
 
