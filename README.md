@@ -11,7 +11,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Sublime Text](#sublime-text)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
-- [DevDesktop](#devdesktop)
+- [Acquia DevDesktop](#acquia-devdesktop)
 - [To Add](#to-add)
 
 ---
@@ -207,6 +207,8 @@ Tweak these to your preference. When done, save the file and close it.
 ## VirtualBox 
 Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
 
+[Modern.ie](http://modern.ie) is used for virtual machines for IE 10-11 testing.
+
 <br><br>
 
 ## Vagrant 
@@ -214,12 +216,7 @@ Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) pac
 
 <br><br>
 
-## DrupalVM 
-Download and install the [DrupalVM](https://www.drupalvm.com/) package from the website. Further Github documentation can be found [here](https://github.com/geerlingguy/drupal-vm).
-
-<br><br>
-
-## Acquia Dev Desktop 
+## Acquia DevDesktop 
 Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from the website.
 
 <br><br>
@@ -229,6 +226,7 @@ Download and install the [Dev Desktop](https://dev.acquia.com/downloads) from th
 - phpStorm
 - WebStorm
 - Composer
+- DrupalVM
 - Laravel + Homestead
 - Bulma
 - Yarn?
