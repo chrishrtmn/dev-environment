@@ -92,7 +92,7 @@ When done, to test that it installed fine you can run:
 
 And `$ which git` should output `/usr/local/bin/git`.
 
-Let's set up some basic configuration. Download the [.gitconfig](/chrishrtmn/dev-setup-macos/blob/master/.gitconfig) file to your home directory:
+Let's set up some basic configuration. Download the [.gitconfig](/chrishrtmn/dev-environment/master/.gitconfig) file to your home directory:
 
     $ cd ~
     $ curl -O https://raw.githubusercontent.com/chrishrtmn/dev-environment/master/.gitconfig
