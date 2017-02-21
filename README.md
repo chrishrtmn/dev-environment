@@ -216,6 +216,13 @@ Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) pac
 
 <br><br>
 
+## SSH
+Copy over SSH dotfiles over to Home directory and run the below to enable read/write permissions by the admin (you):
+
+	$ chmod 600 ~/.ssh/id_rsa
+	
+<br><br>
+
 ## Optional
 
 ##### Acquia DevDesktop 
