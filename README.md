@@ -11,6 +11,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Sublime Text](#sublime-text)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
+- [SSH](#ssh)
 - [Optional](#optional)
 - [Incoming](#incoming)
 
@@ -217,7 +218,7 @@ Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) pac
 <br><br>
 
 ## SSH
-Copy over SSH dotfiles over to Home directory and run the below to enable read/write permissions by the admin (you):
+Copy over your SSH dotfiles over to the Home directory and enable read/write permissions:
 
 	$ chmod 600 ~/.ssh/id_rsa
 	
@@ -241,7 +242,7 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 - DrupalVM
 - Laravel + Homestead
 - Bulma
-- Yarn?
+- Yarn
 - PostCSS
 - LibSass
 	- SassC
