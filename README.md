@@ -12,6 +12,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
 - [SSH](#ssh)
+- [Composer](#composer)
 - [Optional](#optional)
 - [Incoming](#incoming)
 
@@ -224,6 +225,22 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 	
 <br><br>
 
+## Composer
+
+	$ brew update
+	
+	$ brew tap homebrew/homebrew-php
+	
+	$ brew tap homebrew/dupes
+	
+	$ brew tap homebrew/versions
+	
+	$ brew install php55-intl
+	
+	$ brew install homebrew/php/composer
+	
+<br><br>
+
 ## Optional
 
 ##### Acquia DevDesktop 
@@ -238,7 +255,6 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 - Drush
 - phpStorm
 - WebStorm
-- Composer
 - DrupalVM
 - Laravel + Homestead
 - Bulma
