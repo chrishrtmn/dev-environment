@@ -234,6 +234,10 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 	$ brew install php55-intl
 	$ brew install homebrew/php/composer
 	
+Test Composer with:
+
+	$ composer -h
+	
 <br><br>
 
 ## Optional
