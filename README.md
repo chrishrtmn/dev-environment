@@ -278,12 +278,6 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 ## Incoming
 - phpStorm
 - WebStorm
-- Drush
-- DrupalVM
-- Laravel + Homestead
-- Bulma
-- Yarn
-- PostCSS
 
 <br><br>
 
