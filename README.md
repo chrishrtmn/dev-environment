@@ -13,7 +13,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
 - [SSH](#ssh)
-- [Composer](#composer)
+- [Composer & Drush](#composer-and-drush)
 - [Optional](#optional)
 - [Incoming](#incoming)
 
@@ -226,7 +226,9 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 	
 <br><br>
 
-## Composer
+## Composer & Drush
+
+Install Composer with Homebrew 
 
 	$ brew update
 	$ brew tap homebrew/dupes
@@ -238,6 +240,15 @@ Test Composer with:
 
 	$ composer -V
 	
+Install Drush with Composer:
+
+	$ composer global require drush/drush:dev-master
+	$ sudo ln -s $HOME/.composer/vendor/bin/drush /usr/local/bin/drush
+
+Status check with:
+
+	$ drush status
+
 <br><br>
 
 ## Optional
