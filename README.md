@@ -6,6 +6,7 @@ A personalized checklist for setting up a new development environment on macOS.
 
 - [Xcode CLT](#xcode-clt)
 - [Homebrew](#homebrew)
+	- Extend Homebrew with [Cask](https://caskroom.github.io/)
 - [Git](#git)
 - [Node.js](#nodejs)
 - [Sublime Text](#sublime-text)
