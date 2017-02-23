@@ -94,7 +94,6 @@ Extend Homebrew and install [Cask](https://caskroom.github.io/) to download apps
 Install apps with commands like:
 
     $ brew cask install google-chrome
-    $ brew cask install vagrant
 
 <br><br>
 
