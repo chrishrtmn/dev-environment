@@ -250,16 +250,14 @@ If you're working on local sites that use this, download and install [MAMP Pro](
 <br><br>
 
 ## Incoming
-- Drush
 - phpStorm
 - WebStorm
+- Drush
 - DrupalVM
 - Laravel + Homestead
 - Bulma
 - Yarn
 - PostCSS
-- LibSass
-	- SassC
 
 <br><br>
 
