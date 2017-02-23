@@ -13,7 +13,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
 - [SSH](#ssh)
-- [Composer & Drush](#composer-&-drush)
+- [Composer & Drush](#composer--drush)
 - [Optional](#optional)
 - [Incoming](#incoming)
 
