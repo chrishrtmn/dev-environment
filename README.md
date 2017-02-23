@@ -87,7 +87,7 @@ To see top-level packages installed:
     
 #### Cask
 
-Install Cask to download apps directly and quickly:
+Extend Homebrew and install [Cask](https://caskroom.github.io/) to download apps directly and quickly:
 
     $ brew tap caskroom/cask
     
