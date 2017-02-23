@@ -80,6 +80,21 @@ Homebrew keeps older versions of packages installed, in case you want to roll ba
 To see what you have installed (with their version numbers):
 
     $ brew list --versions
+    
+To see top-level packages installed:
+
+    $ brew leaves
+    
+#### Cask
+
+Install Cask to download apps directly and quickly:
+
+    $ brew tap caskroom/cask
+    
+Install apps with commands like:
+
+    $ brew cask install google-chrome
+    $ brew cask install vagrant
 
 <br><br>
 
