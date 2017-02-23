@@ -228,7 +228,7 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 
 ## Composer & Drush
 
-Install Composer with Homebrew 
+Install Composer with Homebrew:
 
 	$ brew update
 	$ brew tap homebrew/dupes
@@ -245,7 +245,7 @@ Install Drush with Composer:
 	$ composer global require drush/drush:dev-master
 	$ sudo ln -s $HOME/.composer/vendor/bin/drush /usr/local/bin/drush
 
-Status check with:
+Check Drush status with:
 
 	$ drush status
 
