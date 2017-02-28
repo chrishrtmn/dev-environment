@@ -172,8 +172,6 @@ Once [Sublime Text 3](http://www.sublimetext.com/) is installed, you'll want to 
 
 - Alignment
 - DocBlockr
-- Drupal
-- Git
 - GitGutter
 - jQuery
 - PHP Twig
@@ -187,7 +185,7 @@ Let's configure our editor a little. Go to **Sublime Text 3 > Preferences > Sett
 	{
 		"bold_folder_labels": true,
 		"default_line_ending": "unix",
-		"draw_white_space": "all",
+		"draw_white_space": "selection",
 		"enable_tab_scrolling": false,
 		"ensure_newline_at_eof_on_save": true,
 		"fade_fold_buttons": false,
