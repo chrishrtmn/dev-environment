@@ -9,13 +9,11 @@ A personalized checklist for setting up a new development environment on macOS.
 	- Extend Homebrew with [Cask](https://caskroom.github.io/)
 - [Git](#git)
 - [Node.js](#nodejs)
-- [Sublime Text](#sublime-text)
+- [Atom](#atom)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [Vagrant](#vagrant)
 - [SSH](#ssh)
 - [Composer & Drush](#composer--drush)
-- [Optional](#optional)
-- [Incoming](#incoming)
 
 ---
 
@@ -167,55 +165,8 @@ Any packages that you use **in** your project should be done with `require('pack
 
 <br><br>
 
-## Sublime Text
-Once [Sublime Text 3](http://www.sublimetext.com/) is installed, you'll want to install [Package Control](https://sublime.wbond.net/installation), and then install the following packages:
-
-- Alignment
-- DocBlockr
-- GitGutter
-- jQuery
-- PHP Twig
-- Sass
-- SCSS
-- Sidebar Enhancements
-
-
-Let's configure our editor a little. Go to **Sublime Text 3 > Preferences > Settings - User** and paste the following in the file that just opened:
-
-	{
-		"bold_folder_labels": true,
-		"default_line_ending": "unix",
-		"draw_white_space": "selection",
-		"enable_tab_scrolling": false,
-		"ensure_newline_at_eof_on_save": true,
-		"fade_fold_buttons": false,
-		"fallback_encoding": "UTF-8",
-		"find_selected_text": true,
-		"font_options":
-		[
-			"subpixel_antialias"
-		],
-		"highlight_line": true,
-		"ignored_packages":
-		[
-			"Vintage"
-		],
-		"open_files_in_new_window": false,
-		"rulers":
-		[
-			80
-		],
-		"shift_tab_unindent": true,
-		"tab_size": 2,
-		"translate_tabs_to_spaces": true,
-		"trim_automatic_white_space": true,
-		"trim_trailing_white_space_on_save": true,
-		"use_tab_stops": true,
-		"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
-	}
-
-
-Tweak these to your preference. When done, save the file and close it.
+## Atom
+More info coming soon.
 
 <br><br>
 
@@ -260,22 +211,6 @@ Install Drush with Composer:
 Check Drush status with:
 
 	$ drush status
-
-<br><br>
-
-## Optional
-
-##### Acquia DevDesktop 
-If you're working on sites that require this, download and install [DevDesktop](https://dev.acquia.com/downloads) from the website and follow the installation instructions.
-
-##### MAMP/MAMP Pro
-If you're working on local sites that use this, download and install [MAMP Pro](https://www.mamp.info/en/mamp-pro/) from the website and follow the installation instructions.
-
-<br><br>
-
-## Incoming
-- phpStorm
-- WebStorm
 
 <br><br>
 
