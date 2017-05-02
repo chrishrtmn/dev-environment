@@ -11,6 +11,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Node.js](#nodejs)
 - [Atom](#atom)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
+- [Docker](#docker)
 - [Vagrant](#vagrant)
 - [SSH](#ssh)
 - [Composer & Drush](#composer--drush)
@@ -166,7 +167,35 @@ Any packages that you use **in** your project should be done with `require('pack
 <br><br>
 
 ## Atom
-More info coming soon.
+- atom-autocomplete-php
+- atom-beautify
+- atom-ternjs
+- autoclose-html
+- editorconfig
+- emmet
+- file-icons
+- file-types
+- git-time-machine
+- highlight-selected
+- intentions
+- language-babel
+- language-markdown
+- language-octobercms
+- linter
+- linter-eslint
+- linter-jshint
+- linter-scss-lint
+- linter-ui-default
+- merge-conflicts
+- php-debug
+- php-twig
+- pigments
+- project-manager
+
+<br><br>
+
+## Docker 
+Download and install [Docker](#) from the website.
 
 <br><br>
 
