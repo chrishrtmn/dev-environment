@@ -6,7 +6,6 @@ A personalized checklist for setting up a new development environment on macOS.
 
 - [Xcode CLT](#xcode-clt)
 - [Homebrew](#homebrew)
-	- Extend Homebrew with [Cask](https://caskroom.github.io/)
 - [Git](#git)
 - [Node.js](#nodejs)
 - [Atom](#atom)
@@ -83,16 +82,6 @@ To see what you have installed (with their version numbers):
 To see top-level packages installed:
 
     $ brew leaves
-    
-#### Cask
-
-Extend Homebrew and install [Cask](https://caskroom.github.io/) to download apps directly and quickly:
-
-    $ brew tap caskroom/cask
-    
-Install apps with commands like:
-
-    $ brew cask install google-chrome
 
 <br><br>
 
