@@ -137,9 +137,9 @@ The formula also installs the [NPM](https://npmjs.org/) package manager. Test if
 - To see what's installed locally: `$ npm list`
 - To see what's installed globally: `$ npm list -g`
 - To find outdated packages (locally or globally): `$ npm outdated [-g]`
-- To upgrade all or a particular package: `$ npm update [<package>]`
+- To upgrade all or a particular package: `$ brew update` and then `$ npm update [<package>]`
 - To uninstall a package: `$ npm uninstall <package>`    
-- To upgrade Node and NPM: `$ brew upgrade node`
+- To upgrade Node and NPM: `$ brew update` and then `$ brew upgrade node`
 - To uninstall Node and NPM: `$ brew uninstall node`
 
 To install a package and save it in your project's `package.json` file: 
@@ -148,6 +148,7 @@ To install a package and save it in your project's `package.json` file:
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
+- **vue-cli** `$ npm install -g vue-cli`
 - **Gulp** `$ npm install -g gulp`
 - **Grunt** `$ npm install -g grunt-cli`
 
@@ -190,13 +191,13 @@ Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 <br><br>
 
-## Docker 
-Download and install [Docker](#) from the website.
+## Vagrant 
+Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. **Avoid installing Vagrant via system package managers.**
 
 <br><br>
 
-## Vagrant 
-Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. **Avoid installing Vagrant via system package managers.**
+## Docker 
+Download and install [Docker](#) from the website.
 
 <br><br>
 
