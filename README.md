@@ -8,10 +8,8 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Homebrew](#homebrew)
 - [Git](#git)
 - [Node.js](#nodejs)
-- [Atom](#atom)
+- [Visual Studio Code](#visual-studio-code)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
-- [Docker](#docker)
-- [Vagrant](#vagrant)
 - [SSH](#ssh)
 - [Composer & Drush](#composer--drush)
 
@@ -156,31 +154,26 @@ Any packages that you use **in** your project should be done with `require('pack
 
 <br><br>
 
-## Atom
-- atom-autocomplete-php
-- atom-beautify
-- atom-ternjs
-- autoclose-html
-- editorconfig
-- emmet
-- file-icons
-- file-types
-- git-time-machine
-- highlight-selected
-- intentions
-- language-babel
-- language-markdown
-- language-octobercms
-- linter
-- linter-eslint
-- linter-jshint
-- linter-scss-lint
-- linter-ui-default
-- merge-conflicts
-- php-debug
-- php-twig
-- pigments
-- project-manager
+## Visual Studio Code
+
+Extensions:
+
+- Auto-Open Markdown Preview
+- EditorConfig for VS Code
+- ES7 React/Redux/GraphQL/React-Native snippets
+- ESLint
+- HTMLHint
+- jshint
+- Material Icon Theme
+- npm
+- PHP Debug
+- PostCSS Syntax
+- Twig
+- Vetur
+- View in Browser
+- vue
+- webpack
+- Webpack Progress
 
 <br><br>
 
@@ -188,16 +181,6 @@ Any packages that you use **in** your project should be done with `require('pack
 Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
 
 [Modern.ie](http://modern.ie) is used for virtual machines for IE 10-11 testing.
-
-<br><br>
-
-## Vagrant 
-Download and install the [Vagrant](https://www.vagrantup.com/downloads.html) package from the website. **Avoid installing Vagrant via system package managers.**
-
-<br><br>
-
-## Docker 
-Download and install [Docker](#) from the website.
 
 <br><br>
 
