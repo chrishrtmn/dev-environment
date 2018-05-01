@@ -156,7 +156,7 @@ Any packages that you use **in** your project should be done with `require('pack
 ## VirtualBox 
 Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
 
-[Modern.ie](http://modern.ie) is used for virtual machines for IE 10-11 testing.
+[Modern.ie](http://modern.ie) is used for virtual machines for IE browser testing.
 
 <br><br>
 
