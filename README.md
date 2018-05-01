@@ -8,7 +8,6 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Homebrew](#homebrew)
 - [Git](#git)
 - [Node.js](#nodejs)
-- [Visual Studio Code](#visual-studio-code)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [SSH](#ssh)
 - [Composer & Drush](#composer--drush)
@@ -151,29 +150,6 @@ Node modules are installed locally in the `node_modules` folder of each project 
 - **Grunt** `$ npm install -g grunt-cli`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
-
-<br><br>
-
-## Visual Studio Code
-
-Extensions:
-
-- Auto-Open Markdown Preview
-- EditorConfig for VS Code
-- ES7 React/Redux/GraphQL/React-Native snippets
-- ESLint
-- HTMLHint
-- jshint
-- Material Icon Theme
-- npm
-- PHP Debug
-- PostCSS Syntax
-- Twig
-- Vetur
-- View in Browser
-- vue
-- webpack
-- Webpack Progress
 
 <br><br>
 
