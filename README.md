@@ -124,6 +124,10 @@ The formula also installs the [NPM](https://npmjs.org/) package manager. Test if
 To install a package and save it in your project's `package.json` file: 
 	
 	$ npm install <package> --save
+	
+To install a package and save it as a development dependency: 
+	
+	$ npm install <package> --save-dev
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
