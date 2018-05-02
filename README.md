@@ -42,43 +42,25 @@ After **Xcode Command Line Tools** has been installed, paste the following line 
 
     $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
-Once that's finished installing, close and open a new terminal window, then run the following command to make sure everything works:
-
-    $ brew doctor
+Make sure everything works: `$ brew doctor`
     
 #### Usage
 
-To install a package (or **Formula** in Homebrew vocabulary) simply type:
-
-    $ brew install <formula>
+To install a package (or **Formula** in Homebrew vocabulary) simply type: `$ brew install <formula>`
         
-To update Homebrew's directory of formulae, run:
+To update Homebrew's directory of formulae, run: `$ brew update`
 
-    $ brew update
-
-To see if any of your packages need to be updated:
-
-    $ brew outdated
+To see if any of your packages need to be updated: `$ brew outdated`
     
-To update a package:
-
-    $ brew upgrade <formula>
+To update a package: `$ brew upgrade <formula>`
    
-To remove a package:
-
-    $ brew remove <formula>
+To remove a package: `$ brew remove <formula>`
         
-Homebrew keeps older versions of packages installed, in case you want to roll back. That rarely is necessary, so you can do some cleanup to get rid of those old versions:
+Cleanup old versions: `$ brew cleanup`
 
-    $ brew cleanup
-
-To see what you have installed (with their version numbers):
-
-    $ brew list --versions
+To see what you have installed (with their version numbers): `$ brew list --versions`
     
-To see top-level packages installed:
-
-    $ brew leaves
+To see top-level packages installed: `$ brew leaves`
 
 <br><br>
 
