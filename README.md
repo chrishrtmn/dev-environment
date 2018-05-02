@@ -145,9 +145,9 @@ To install a package and save it in your project's `package.json` file:
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
+- **create-react-app** `$ npm install -g create-react-app`
 - **vue-cli** `$ npm install -g vue-cli`
-- **Gulp** `$ npm install -g gulp`
-- **Grunt** `$ npm install -g grunt-cli`
+- **Yarn** `$ npm install -g yarn`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
 
