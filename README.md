@@ -121,14 +121,6 @@ The formula also installs the [NPM](https://npmjs.org/) package manager. Test if
 - To upgrade Node and NPM: `$ brew update` and then `$ brew upgrade node`
 - To uninstall Node and NPM: `$ brew uninstall node`
 
-To install a package and save it in your project's `package.json` file: 
-	
-	$ npm install <package> --save
-	
-To install a package and save it as a development dependency: 
-	
-	$ npm install <package> --save-dev
-
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
 - **create-react-app** `$ npm install -g create-react-app`
@@ -136,6 +128,14 @@ Node modules are installed locally in the `node_modules` folder of each project 
 - **Yarn** `$ npm install -g yarn`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
+
+To install a package and save it in your project's `package.json` file: 
+	
+	$ npm install <package> --save
+	
+To install a package and save it as a development dependency: 
+	
+	$ npm install <package> --save-dev
 
 <br><br>
 
