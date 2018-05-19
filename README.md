@@ -13,6 +13,13 @@ A personalized checklist for setting up a new development environment on macOS.
 
 ---
 
+<br></br>
+
+## To-Do
+
+1. Move dotfiles into folder
+2. Add exported settings from editor
+
 <br><br>
 
 ## Xcode CLT
