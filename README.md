@@ -10,7 +10,6 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Node.js](#nodejs)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [SSH](#ssh)
-- [Composer & Drush](#composer--drush)
 
 ---
 
@@ -123,8 +122,6 @@ The formula also installs the [NPM](https://npmjs.org/) package manager. Test if
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
-- **create-react-app** `$ npm install -g create-react-app`
-- **vue-cli** `$ npm install -g vue-cli`
 - **Yarn** `$ npm install -g yarn`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
