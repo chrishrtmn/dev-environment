@@ -130,8 +130,9 @@ The formula also installs the [NPM](https://npmjs.org/) package manager. Test if
 Node modules are installed locally in the `node_modules` folder of each project by default, but install these packages globally as they are used as commands in your shell.
 
 - **Yarn** `$ npm install -g yarn`
-- **Vue-CLI** `$ npm install -g vue-cli`
+- **Vue-CLI** `$ npm install -g @vue/cli`
 - **Flow-Bin** `$ npm install -g flow-bin`
+- **Vue-DevTools** `$ npm install -g @vue/devtools`
 - **React-DevTools** `$ npm install -g react-devtools`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
