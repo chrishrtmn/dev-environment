@@ -10,8 +10,8 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Node.js](#nodejs)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [SSH](#ssh)
-- [Composer/Drush](#composer-drush)
-- [Visual Studio Code](#vscode)
+- [Composer & Drush](#composer--drush)
+- [Visual Studio Code](#visual-studio-code)
 
 ---
 
