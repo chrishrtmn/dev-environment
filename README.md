@@ -8,7 +8,6 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Homebrew](#homebrew)
 - [Git](#git)
 - [Node.js](#nodejs)
-- [VirtualBox](#virtualbox) (+[modern.IE](http://modern.ie))
 - [SSH](#ssh)
 - [Composer & Drush](#composer--drush)
 - [Visual Studio Code](#visual-studio-code)
@@ -133,8 +132,8 @@ Node modules are installed locally in the `node_modules` folder of each project 
 
 - **Yarn** `$ npm install -g yarn`
 - **Vue-CLI** `$ npm install -g @vue/cli`
-- **Flow-Bin** `$ npm install -g flow-bin`
 - **Vue-DevTools** `$ npm install -g @vue/devtools`
+- **Create-React-App** `$ npm install -g create-react-app`
 - **React-DevTools** `$ npm install -g react-devtools`
 
 Any packages that you use **in** your project should be done with `require('package-name')`, then installed locally at the root of your project.
@@ -146,13 +145,6 @@ To install a package and save it in your project's `package.json` file:
 To install a package and save it as a development dependency: 
 	
 	$ npm install <package> --save-dev
-
-<br><br>
-
-## VirtualBox 
-Download and install the [VirtualBox](https://www.virtualbox.org/wiki/Downloads) package from the website.
-
-[Modern.ie](http://modern.ie) is used for virtual machines for IE browser testing.
 
 <br><br>
 
