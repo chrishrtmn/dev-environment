@@ -10,6 +10,8 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Node.js](#nodejs)
 - [VirtualBox](#virtualbox) + [modern.IE](http://modern.ie)
 - [SSH](#ssh)
+- [Composer/Drush](#composer-drush)
+- [Visual Studio Code](#vscode)
 
 ---
 
@@ -183,6 +185,12 @@ Install Drush with Composer:
 Check Drush status with:
 
 	$ drush status
+
+<br><br>
+
+## Visual Studio Code
+
+Sync your Visual Studio Code extensions and user settings from cloud Gist at: https://gist.github.com/chrishrtmn
 
 <br><br>
 
