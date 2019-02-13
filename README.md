@@ -9,7 +9,6 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Git](#git)
 - [Node.js](#nodejs)
 - [SSH](#ssh)
-- [Composer & Drush](#composer--drush)
 - [Visual Studio Code](#visual-studio-code)
 
 ---
@@ -83,7 +82,7 @@ When done, to test that it installed fine you can run:
 
 And `$ which git` should output `/usr/local/bin/git`.
 
-Let's set up some basic configuration. Download the [.gitconfig](/chrishrtmn/dev-environment/master/.gitconfig) file to your home directory:
+Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/chrishrtmn/dev-environment/master/.gitconfig) file to your home directory:
 
     $ cd ~
     $ curl -O https://raw.githubusercontent.com/chrishrtmn/dev-environment/master/.gitconfig
@@ -153,31 +152,6 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 
 	$ chmod 600 ~/.ssh/id_rsa
 	
-<br><br>
-
-## Composer & Drush
-
-Install Composer with Homebrew:
-
-	$ brew update
-	$ brew tap homebrew/dupes
-	$ brew tap homebrew/php
-	$ brew install php56
-	$ brew install composer
-	
-Test Composer with:
-
-	$ composer -V
-	
-Install Drush with Composer:
-
-	$ composer global require drush/drush:dev-master
-	$ sudo ln -s $HOME/.composer/vendor/bin/drush /usr/local/bin/drush
-
-Check Drush status with:
-
-	$ drush status
-
 <br><br>
 
 ## Visual Studio Code
