@@ -160,5 +160,12 @@ Sync your Visual Studio Code extensions and user settings from cloud Gist at: ht
 
 <br><br>
 
+#### lug-ins
+
+- Bracket Pair Colorizer
+- EditorConfig for VS Code
+- Settings Sync
+- SynthWave '84 (Theme)
+
 ---
 [Back to Top](#dev-environment-macos)
