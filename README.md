@@ -158,14 +158,14 @@ Copy over your SSH dotfiles over to the Home directory and enable read/write per
 
 Sync your Visual Studio Code extensions and user settings from cloud Gist at: https://gist.github.com/chrishrtmn
 
-<br><br>
-
-#### lug-ins
+#### Plug-ins
 
 - Bracket Pair Colorizer
 - EditorConfig for VS Code
 - Settings Sync
 - SynthWave '84 (Theme)
+
+<br><br>
 
 ---
 [Back to Top](#dev-environment-macos)
