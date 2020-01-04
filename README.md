@@ -167,12 +167,9 @@ Sync your Visual Studio Code extensions and user settings from cloud Gist at: ht
 
 <br><br>
 
-#### Packages
+### Development Packages
 - [postcss-import](https://github.com/postcss/postcss-import)
 - [postcss-nested](https://github.com/postcss/postcss-nested)
-
----
-
 - [prettier](https://github.com/prettier/prettier)
 - [eslint](https://github.com/eslint/eslint)
 
