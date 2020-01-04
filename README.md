@@ -10,7 +10,7 @@ A personalized checklist for setting up a new development environment on macOS.
 - [Node.js](#nodejs)
 - [SSH](#ssh)
 - [Visual Studio Code](#visual-studio-code)
-- [Development Packages](#developmemt-packages)
+- [Development Packages](#development-packages)
 
 ---
 
