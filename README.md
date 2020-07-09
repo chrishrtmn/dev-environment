@@ -2,6 +2,12 @@
 
 Personal development environment setup and checklist for macOS using Homebrew.
 
+https://github.com/T0mmykn1fe/DevSecOps-OSX-Mac-Setup-with-Homebrew
+
+https://github.com/corbanb/osx-developer-setup/blob/master/setups/osx-nodejs-dev.sh
+
+https://formulae.brew.sh/cask/
+
 #### Table of Contents
 
 - [Xcode CLT](#xcode-clt)
