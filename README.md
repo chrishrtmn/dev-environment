@@ -1,6 +1,6 @@
-# Dev Environment (macOS)
+# Dev Setup (macOS)
 
-A personalized checklist for setting up a new development environment on macOS.
+Personal development environment setup and checklist for macOS using Homebrew.
 
 #### Table of Contents
 
