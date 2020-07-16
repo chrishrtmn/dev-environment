@@ -1,4 +1,4 @@
-# Dev Setup (macOS)
+# Dev Setup (macOS) - Move to 'setup-mac' repository
 
 Personal development environment setup and checklist for macOS using Homebrew.
 
