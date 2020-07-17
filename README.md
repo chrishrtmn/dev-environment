@@ -1,4 +1,56 @@
-# Dev Setup (macOS) - Move to 'setup-mac' repository
+# setup-mac
+A personal list of apps used across Mac.
+
+## Development & Design
+
+- Firefox
+- Figma
+- Visual Studio Code
+- Affinity Designer
+- Affinity Photo
+- [Cavalry](https://account.cavalry.scenegroup.co)
+
+## Productivity
+
+- Eagle.cool
+
+## Miscellaneous
+
+- AppCleaner
+- Bartender
+- Bitwarden
+- Cryptomator
+- Deliveries
+- Moom
+- Sony Imaging Edge Desktop
+
+
+# Mac Environment
+
+A personalized checklist for apps to install on macOS. Does not include apps from App Store.
+
+### Third-Party Apps
+
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+  - $ brew cask install appcleaner
+- [Bartender](https://www.macbartender.com)
+- [Bitwarden](https://bitwarden.com)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Eagle.cool
+
+### Browser Extensions (Safari)
+
+- Bitwarden (App Store)
+
+---
+
+### Launchpad Folder Structure
+
+- macOS
+- App Store
+- Third-Party
+
+---
 
 Personal development environment setup and checklist for macOS using Homebrew.
 
