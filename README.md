@@ -1,4 +1,4 @@
-# setup-mac
+# Setup Mac
 A personal list of apps used across Mac.
 
 ## Development & Design
