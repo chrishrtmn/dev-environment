@@ -25,6 +25,7 @@ A personal list of apps used across Mac.
 - Moom
 - Sony Imaging Edge Desktop
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
+- Blackhole (Audio driver) https://github.com/ExistentialAudio/BlackHole
 
 
 # Mac Environment
