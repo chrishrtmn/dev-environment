@@ -53,6 +53,9 @@ A personalized checklist for apps to install on macOS. Does not include apps fro
 
 ---
 
+- https://github.com/minamarkham/formation
+- https://github.com/sb2nov/mac-setup
+
 Personal development environment setup and checklist for macOS using Homebrew.
 
 https://github.com/T0mmykn1fe/DevSecOps-OSX-Mac-Setup-with-Homebrew
