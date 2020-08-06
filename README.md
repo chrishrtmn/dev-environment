@@ -12,6 +12,7 @@ A personal list of apps used across Mac.
 
 ## Productivity
 
+- Raindrop.io
 - Eagle.cool
 
 ## Miscellaneous
@@ -23,6 +24,7 @@ A personal list of apps used across Mac.
 - Deliveries
 - Moom
 - Sony Imaging Edge Desktop
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 
 
 # Mac Environment
@@ -36,7 +38,6 @@ A personalized checklist for apps to install on macOS. Does not include apps fro
 - [Bartender](https://www.macbartender.com)
 - [Bitwarden](https://bitwarden.com)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- Eagle.cool
 
 ### Browser Extensions (Safari)
 
