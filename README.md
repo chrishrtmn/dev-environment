@@ -26,6 +26,7 @@ A personal list of apps used across Mac.
 - Sony Imaging Edge Desktop
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 - [Blackhole](https://existential.audio/blackhole) (Audio Driver)
+- [Monolith](https://github.com/Y2Z/monolith) (Save Full Sites Locally)
 
 
 # Mac Environment
