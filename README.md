@@ -37,6 +37,7 @@ A personal list of apps used across Mac.
 
 ### Table of Contents
 
+- [To-Do](#to-do)
 - [Xcode CLT](#xcode-clt)
 - [Homebrew](#homebrew)
 - [Git](#git)
@@ -45,9 +46,7 @@ A personal list of apps used across Mac.
 - [Visual Studio Code](#visual-studio-code)
 - [Development Packages](#development-packages)
 
----
-
-<br></br>
+<br><br>
 
 ## To-Do
 
