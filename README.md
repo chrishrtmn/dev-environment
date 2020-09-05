@@ -33,7 +33,11 @@ A personal list of apps used across Mac.
 - Honey
 - Muzli
 
+<br><br>
+
 ---
+
+<br><br>
 
 ### Table of Contents
 
@@ -46,7 +50,7 @@ A personal list of apps used across Mac.
 - [Visual Studio Code](#visual-studio-code)
 - [Development Packages](#development-packages)
 
-<br><br>
+<br>
 
 ## To-Do
 
