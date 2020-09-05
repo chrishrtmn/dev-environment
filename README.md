@@ -1,72 +1,41 @@
 # Setup Mac
+
 A personal list of apps used across Mac.
 
-## Development & Design
+## App Store
 
-- Firefox
-- Figma
-- Visual Studio Code
 - Affinity Designer
 - Affinity Photo
-- [Cavalry](https://account.cavalry.scenegroup.co)
-
-## Productivity
-
-- Raindrop.io
-- Eagle.cool
-
-## Miscellaneous
-
-- AppCleaner
-- Bartender
-- Bitwarden
-- Cryptomator
 - Deliveries
 - Moom
-- Sony Imaging Edge Desktop
-- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
-- [Blackhole](https://existential.audio/blackhole) (Audio Driver)
-- [Monolith](https://github.com/Y2Z/monolith) (Save Full Sites Locally)
 
-
-# Mac Environment
-
-A personalized checklist for apps to install on macOS. Does not include apps from App Store.
-
-### Third-Party Apps
+## Third-Party
 
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
-  - $ brew cask install appcleaner
 - [Bartender](https://www.macbartender.com)
 - [Bitwarden](https://bitwarden.com)
+- [Blackhole](https://existential.audio/blackhole) (Audio Driver)
+- [Cavalry](https://account.cavalry.scenegroup.co)
+- Cryptomator
+- Figma
+- Sony Imaging Edge Desktop
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+## System
+
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
+- [Monolith](https://github.com/Y2Z/monolith) (Save Full Sites Locally)
 
 ### Browser Extensions (Safari)
 
-- Bitwarden (App Store)
+- Bitwarden
+- Grammarly
+- Honey
+- Muzli
 
 ---
 
-### Launchpad Folder Structure
-
-- macOS
-- App Store
-- Third-Party
-
----
-
-- https://github.com/minamarkham/formation
-- https://github.com/sb2nov/mac-setup
-
-Personal development environment setup and checklist for macOS using Homebrew.
-
-https://github.com/T0mmykn1fe/DevSecOps-OSX-Mac-Setup-with-Homebrew
-
-https://github.com/corbanb/osx-developer-setup/blob/master/setups/osx-nodejs-dev.sh
-
-https://formulae.brew.sh/cask/
-
-#### Table of Contents
+### Table of Contents
 
 - [Xcode CLT](#xcode-clt)
 - [Homebrew](#homebrew)
@@ -83,7 +52,6 @@ https://formulae.brew.sh/cask/
 ## To-Do
 
 1. Move dotfiles into folder
-2. Add exported settings from editor
 
 <br><br>
 
@@ -216,30 +184,8 @@ To install a package and save it as a development dependency:
 Copy over your SSH dotfiles over to the Home directory and enable read/write permissions:
 
 	$ chmod 600 ~/.ssh/id_rsa
-	
-<br><br>
-
-## Visual Studio Code
-
-Sync your Visual Studio Code extensions and user settings from cloud Gist at: https://gist.github.com/chrishrtmn
-
-#### Plug-ins
-
-- Bracket Pair Colorizer
-- EditorConfig for VS Code
-- Settings Sync
-- SynthWave '84 (Theme)
-
-<br><br>
-
-## Development Packages
-
-- [postcss-import](https://github.com/postcss/postcss-import)
-- [postcss-nested](https://github.com/postcss/postcss-nested)
-- [prettier](https://github.com/prettier/prettier)
-- [eslint](https://github.com/eslint/eslint)
 
 <br><br>
 
 ---
-[Back to Top](#dev-environment-macos)
+[Back to Top](#setup-mac)
