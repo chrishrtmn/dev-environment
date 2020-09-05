@@ -26,18 +26,20 @@ A personal list of apps used across Mac.
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 - [Monolith](https://github.com/Y2Z/monolith) (Save Full Sites Locally)
 
-### Browser Extensions (Safari)
+## Browser Extensions (Safari)
 
 - Bitwarden
 - Grammarly
 - Honey
 - Muzli
 
-<br><br>
+<br>
 
 ---
 
-<br><br>
+<br>
+
+## Development Setup
 
 ### Table of Contents
 
@@ -47,8 +49,6 @@ A personal list of apps used across Mac.
 - [Git](#git)
 - [Node.js](#nodejs)
 - [SSH](#ssh)
-- [Visual Studio Code](#visual-studio-code)
-- [Development Packages](#development-packages)
 
 <br>
 
